@@ -64,6 +64,10 @@ ul {
   padding-top: 80px;
 }
 
+header, footer {
+  width: 100%;
+}
+
 li.todo {
   display: flex;
   justify-content: center;
@@ -152,6 +156,7 @@ footer p.credit {
   transform: translateX(-50%);
 
 }
+
 
 
 
