@@ -99,12 +99,15 @@ li.todo .name:focus {
   outline-offset: 4px;
   border-radius: 4px;
 }
-
+header {
+  position: relative;
+}
 .waveDOWN {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .waveUP {
@@ -150,4 +153,5 @@ footer p.credit {
   transform: translateX(-50%);
 
 }
+
 
