@@ -3,7 +3,7 @@
   "short_name": "Fabric",
   "description": "A short ToDo maker!",
   "lang": "en",
-  "start_url": "/",
+  "start_url": "/FocusFabric/",
   "display": "fullscreen",
   "theme_color": "#F36A3E",
   "icons": [
@@ -13,4 +13,5 @@
       "type": "image/png"
     }
   ]
+
 }
