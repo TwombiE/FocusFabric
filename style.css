@@ -117,7 +117,7 @@ li.todo .name:focus {
 
 .waveUP {
   position: absolute;
-  bottom: -5px;
+  bottom: calc(-5px + env(safe-area-inset-bottom));
   left: 0;
   width: 100%;
 }
@@ -156,7 +156,8 @@ footer p.credit {
   text-align: center;
   margin-top: 10px;
   position: absolute;
-  bottom: 10px;
+  bottom: calc(10px + env(safe-area-inset-bottom));
   left: 50%;
   transform: translateX(-50%);
 }
+
