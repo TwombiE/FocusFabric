@@ -110,9 +110,16 @@ li.todo .name:focus {
 }
 
 .waveDOWN {
+  display: block;
+  margin-top: calc(-1 * env(safe-area-inset-top)); /* visuell oben ziehen */
   width: 100%;
 }
 
+header {
+  position: relative; /* Basis für Wave und H1 */
+  padding-top: env(safe-area-inset-top); /* Safe Area oben berücksichtigen */
+  text-align: center;
+}
 .waveUP {
   position: absolute;
   bottom: -5px;
@@ -156,6 +163,7 @@ footer p.credit {
   transform: translateX(-50%);
 
 }
+
 
 
 
