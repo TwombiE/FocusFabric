@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Fabric">
+<meta name="apple-mobile-web-app-title" content="Fabric">
+<meta name="theme-color" content="#F36A3E">
+<meta name="msapplication-navbutton-color" content="#F36A3E">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>FocusFabric</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./assets/imgs/icon.png" type="image/png">
+<link rel="apple-touch-icon" type="image/png" sizes="400x400" href="./assets/imgs/icon.png">
+</head>
+<body>
+
+  <header>
+    <img class="waveDOWN" src="./assets/imgs/waveDOWN.png" alt="WavePH">
+    <h1>FocusFabric</h1>
+  </header>
+
+  <h2>Focuses <span id="counter"></span>/8</h2>
+  <div id="todos">
+      <ul id="list">
+        <li class="todo" tabindex="1">
+          <button style="border: none; background: transparent;" tabindex="1" id="editBTN" onclick="editFocus(this);"><img class="editIcon" src="./assets/imgs/pen.png" alt="Edit"></button>
+           <span class="name">Edit Name Left / Delete Focus Right</span>
+          <button style="border: none; background: transparent;" tabindex="1" id="deleteBTN" onclick="deleteFocus(this);"><img class="deleteIcon" src="./assets/imgs/bin.png" alt="Remove"></button>
+        </li>
+      </ul>
+  </div>
+
+  <div id="addTodoBTN">
+    <button onclick="addFocus();">+</button>
+  </div>
+
+  <footer>
+    <img class="waveUP" src="./assets/imgs/waveUP.png" alt="WavePH">
+    <p class="credit">Made with &#10084; by TwombiElectronics</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

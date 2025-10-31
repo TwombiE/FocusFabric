@@ -1,0 +1,16 @@
+{
+  "name": "FocusFabric",
+  "short_name": "Fabric",
+  "description": "A short ToDo maker!",
+  "lang": "en",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#F36A3E",
+  "icons": [
+    {
+      "src": "./assets/imgs/icon.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ]
+}
