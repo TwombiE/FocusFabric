@@ -103,11 +103,9 @@ header {
   position: relative;
 }
 .waveDOWN {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block; /* sicherstellen, dass es als Block behandelt wird */
+  transform: translateY(-50%); /* visuell nach oben verschieben */
   width: 100%;
-  z-index: 1;
 }
 
 .waveUP {
@@ -153,5 +151,6 @@ footer p.credit {
   transform: translateX(-50%);
 
 }
+
 
 
