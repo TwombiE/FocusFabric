@@ -46,7 +46,7 @@ h2 {
   font-size: 2em;
   color: #383838;
   position: absolute;
-  top: 250px;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -145,4 +145,5 @@ footer p.credit {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+
 }
